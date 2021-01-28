@@ -54,7 +54,7 @@ In addition to refactoring the code, I also added some functionality to the webp
         color: #ffffff;
     }
     ```
-* Removed redundant or unneccessary selectors from rulesets:  
+* Removed redundant or unneccessary selectors from rule-sets:  
     This selector targets the `.seo` class within `<h1>` elements within elements with the `.header` class:
     ```
     .header h1 .seo {
@@ -103,7 +103,7 @@ In addition to refactoring the code, I also added some functionality to the webp
         background-color: #2589bd;
     }
     ```
-* Removed rulesets altogether that did not have any bearing on styles:  
+* Removed rule-sets altogether that did not have any bearing on styles:  
     ```
     p {
         font-size: 16px;
