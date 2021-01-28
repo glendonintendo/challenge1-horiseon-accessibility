@@ -11,8 +11,8 @@ In addition to refactoring the code, I also added some functionality to the webp
 * Added comments that separate main sections of the webpage as well as smaller subsections of the main content:
     `<!-- content section -->`  
     `<!-- search engine optimization article -->`
-* Revised inner HTML of the `<title>` element to *Horiseon - Social Solutions Services*
-* Replaced (most) divs with the appropriate header, nav, section, article, and footer semantic tags:
+* Revised inner HTML of the `<title>` element to `Horiseon - Social Solutions Services`
+* Replaced (most) `<div>`s with the appropriate `<header>`, `<nav>`, `<section>`, `<article>`, and `<footer>` semantic tags:
     ```
     <div class="footer">
     ...
@@ -46,7 +46,7 @@ In addition to refactoring the code, I also added some functionality to the webp
         color: #ffffff;
     }
     ```
-    By targeting the divs within the parent `.benefits`, we accomplish the same goal with less code:
+    By targeting the `<div>`s within the parent `.benefits`, we accomplish the same goal with less code:
     ```
     .benefits div {
     margin-bottom: 32px;
@@ -112,8 +112,8 @@ In addition to refactoring the code, I also added some functionality to the webp
 
 
 ### Gotcha Moments
-* Removed extraneous closing img tag from Cost Management within the Benefit section
-* Added an `id="search-engine-optimization"` to the search-engine-optimzation div allowing the nav link to direct to the section of the page
+* Removed extraneous `</img>` tag from Cost Management div within the Benefits section
+* Added an `id="search-engine-optimization"` property to the `<div id="search-engine-optimization">` allowing the `<a href="#search-engine-optimization">Search Engine Optimization</a>` nav link to direct to the section of the page
 * Added a favicon to the address bar
 * Added a meta desription for the webpage, just in case this ever gets published ;)
 
