@@ -8,12 +8,42 @@ In addition to refactoring the code, I also added some functionality to the webp
 
 ## Summary of Refactor Changes
 ### HTML
-
+* added comments that separate main sections of the webpage as well as smaller subsections of the main content
+* 
 
 ### CSS
+* added comments that separated code into sections for portion of the webpage, and then reorganized code to its approriate commment header
+* reorganized redundant code with multiple selectors under a new selector that still targeted the all the disered elements:
+    Original code targeted each 
+    ```
+    .benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
-## Gotcha Moments
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+    ```
+    Was revised to:
+    ```
+    .benefits div {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+    ```
+
+### Gotcha Moments
+* removed extraneous closing img tag from Cost Management within the Benefit section
+* added an `id="search-engine-optimization"` to the search-engine-optimzation div allowing the nav link to direct to the section of the page
+* added a favicon to the address bar
+* added a meta desription for the webpage, just in case this ever gets published ;)
 
 ## Demo
 A link to the most up-to-date version of the project can be found here: [Horiseon - Social Solution Services](https://glendonintendo.github.io/challenge1-horiseon-accessibility/).  
