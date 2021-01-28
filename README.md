@@ -7,7 +7,8 @@ I accomplished this by replacing generic html tags with semantic tags, adding wh
 In addition to refactoring the code, I also added some functionality to the webpage and fixed syntax and bugs (summarized in *Gotcha Moments*).
 
 ## Demo
-A link to the most up-to-date version of the project can be found here: [Horiseon - Social Solution Services](https://glendonintendo.github.io/challenge1-horiseon-accessibility/). 
+A link to the most up-to-date version of the project can be found here: [Horiseon - Social Solution Services](https://glendonintendo.github.io/challenge1-horiseon-accessibility/).  
+
 I have also provided a screen shot of the launched webpage below:
 ![Image](assets/images/horiseon-webpage-screenshot.png)
 
@@ -37,3 +38,28 @@ WHEN I view the heading attributes
 THEN they fall in sequential order  
 WHEN I view the title element  
 THEN I find a concise, descriptive title
+
+### Summary of Grading Requirements
+#### Technical Acceptance Criteria: 40%
+- [x] Satisfies all preceding acceptance criteria
+    * refactor html basic elements to semantic elements
+    * ensure structure of hyml follows logical order
+    * image elements contain relevant alt attributes
+    * heading attributes fall in sequential order
+    * title in title elemetn in concise and descriptive
+- [x] Application's links all function properly
+- [x] Application's CSS selectors and properties are consolidated and organized to follow semantic structure
+- [x] Application's CSS file is properly commented
+#### Deployment: 32%
+- [x] Application deployed at live URL
+- [x] Application loads with no errors
+- [x] Application GitHub URL submitted
+- [x] GitHub repo contains applicable code
+#### Application Quality: 15%
+- [x] Application resembles screenshots provided in challenge instructions
+#### Repository Quality: 13%
+- [x] Repository has unique name
+- [x] Repository follows best practices for file structure and naming conventions
+- [x] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+- [x] Repository contains multiple descriptive commit messages
+- [x] Repository contains quality README file with description, screenshot, and link to deployed application
