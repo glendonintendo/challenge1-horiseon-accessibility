@@ -7,24 +7,25 @@ I accomplished this by replacing generic html tags with semantic tags, adding wh
 In addition to refactoring the code, I also added some functionality to the webpage and fixed syntax and bugs (summarized in *Gotcha Moments*).
 
 ## Demo
-[Horiseon - Social Solution Services](https://glendonintendo.github.io/challenge1-horiseon-accessibility/)
+A link to the most up-to-date version of the project can be found here: [Horiseon - Social Solution Services](https://glendonintendo.github.io/challenge1-horiseon-accessibility/). 
+I have also provided a screen shot of the launched webpage below:
 ![Image](assets/images/horiseon-webpage-screenshot.png)
 
 ## Summary of Refactor Changes
-#### HTML
+### HTML
 
 
-#### CSS
+### CSS
 
 ## Gotcha Moments
 
 ## Test Conditions and Grading Criteria
-#### User Story
+### User Story
 >AS A marketing agency  
 I WANT a codebase that follows accessibility standards  
 SO THAT our own site is optimized for search engines
 
-#### Acceptance Criteria
+### Acceptance Criteria
 >GIVEN a webpage meets accessibility standards  
 WHEN I view the source code  
 THEN I find semantic HTML elements  
