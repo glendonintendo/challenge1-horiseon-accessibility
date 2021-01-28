@@ -20,14 +20,12 @@ In addition to refactoring the code, I also added some functionality to the webp
 
 ## Test Conditions and Grading Criteria
 #### User Story
->
-AS A marketing agency
+>AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 
 #### Acceptance Criteria
->
-GIVEN a webpage meets accessibility standards
+>GIVEN a webpage meets accessibility standards
 WHEN I view the source code
 THEN I find semantic HTML elements
 WHEN I view the structure of the HTML elements
