@@ -32,8 +32,8 @@ In addition to refactoring the code, I also added some functionality to the webp
     Original code targeted each div in the `.benefits` section individually, but with all the same styles.
     ```
     .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+        margin-bottom: 32px;
+        color: #ffffff;
     }
 
     .benefit-brand {
@@ -49,8 +49,8 @@ In addition to refactoring the code, I also added some functionality to the webp
     By targeting the `<div>`s within the parent `.benefits`, we accomplish the same goal with less code:
     ```
     .benefits div {
-    margin-bottom: 32px;
-    color: #ffffff;
+        margin-bottom: 32px;
+        color: #ffffff;
     }
     ```
 * Removed redundant or unneccessary selectors from rulesets:
