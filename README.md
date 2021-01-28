@@ -19,24 +19,24 @@ In addition to refactoring the code, I also added some functionality to the webp
     .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
-}
+    }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+    .benefit-brand {
+        margin-bottom: 32px;
+        color: #ffffff;
+    }
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+    .benefit-cost {
+        margin-bottom: 32px;
+        color: #ffffff;
+    }
     ```
     Was revised to:
     ```
     .benefits div {
     margin-bottom: 32px;
     color: #ffffff;
-}
+    }
     ```
 
 ### Gotcha Moments
