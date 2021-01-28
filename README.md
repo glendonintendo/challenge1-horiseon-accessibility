@@ -8,13 +8,28 @@ In addition to refactoring the code, I also added some functionality to the webp
 
 ## Summary of Refactor Changes
 ### HTML
-* added comments that separate main sections of the webpage as well as smaller subsections of the main content
-* 
+* added comments that separate main sections of the webpage as well as smaller subsections of the main content:
+    `<!-- content section -->`
+    `<!-- search engine optimization article -->`
+* revised inner HTML of the `<title>` element to *Horiseon - Social Solutions Services*
+* replaced (most) divs with the appropriate header, nav, section, article, and footer semantic tags:
+    ```
+    <div class="footer">
+    ...
+    </div>
+    ```
+    Was replaced with:
+    ```
+    <footer>
+    ...
+    </footer>
+    ```
 
 ### CSS
-* added comments that separated code into sections for portion of the webpage, and then reorganized code to its approriate commment header
-* reorganized redundant code with multiple selectors under a new selector that still targeted the all the disered elements:
-    Original code targeted each 
+* added comments that separated code into sections for portion of the webpage, and then reorganized code to its approriate comment header:
+    `/* styles for header section */`
+* reorganized redundant code with multiple selectors under a new selector that still targeted the all the disered elements:  
+    Original code targeted each div in the `.benefits` section individually, but with all the same styles.
     ```
     .benefit-lead {
     margin-bottom: 32px;
@@ -31,13 +46,70 @@ In addition to refactoring the code, I also added some functionality to the webp
         color: #ffffff;
     }
     ```
-    Was revised to:
+    By targeting the divs within the parent `.benefits`, we accomplish the same goal with less code:
     ```
     .benefits div {
     margin-bottom: 32px;
     color: #ffffff;
     }
     ```
+* removed redundant or unneccessary selectors from rulesets:
+    This selector targets the `.seo` class within `<h1>` elements within elements with the `.header` class:
+    ```
+    .header h1 .seo {
+        color: #d9dcd6;
+    }
+    ```
+    However, selecting just the `.seo` class is cleaner and does not decrease funtionality because the `.seo` class is liekly to only be used for this single styling:
+    ```
+    .seo {
+        color: #d9dcd6;
+    }
+    ```
+* revised selectors in CSS to match changes in of HTML basic elements to semantic elements:
+    ```
+    .footer h2 {
+        font-size: 20px;
+    }
+    ```
+    Was revised to:
+    ```
+    footer h2 {
+        font-size: 20px;
+    }
+    ```
+* removed extraneous properties from rule-sets that did not actually affect the style:
+    ```
+    .benefits {
+        margin-right: 20px;
+        padding: 20px;
+        clear: both;
+        float: right;
+        width: 20%;
+        height: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #2589bd;
+    }
+    ```
+    `clear: both` and `height: 100%` have no bearing on the styles based on the other styling properties, so they were removed:
+    ```
+    .benefits {
+        margin-right: 20px;
+        padding: 20px;
+        float: right;
+        width: 20%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #2589bd;
+    }
+    ```
+* removed rulesets altogether that did not have any bearing on styles:
+    ```
+    p {
+        font-size: 16px;
+    }
+    ```
+    Since `<p>` elements default to 16px, this rule-set was removed for redundancy
+
 
 ### Gotcha Moments
 * removed extraneous closing img tag from Cost Management within the Benefit section
