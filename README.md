@@ -20,9 +20,9 @@ In addition to refactoring the code, I also added some functionality to the webp
 
 ## Test Conditions and Grading Criteria
 #### User Story
->AS A marketing agency[space]
-I WANT a codebase that follows accessibility standards[space]
-SO THAT our own site is optimized for search engines[space]
+>AS A marketing agency
+>I WANT a codebase that follows accessibility standards
+>SO THAT our own site is optimized for search engines
 
 #### Acceptance Criteria
 >GIVEN a webpage meets accessibility standards
