@@ -28,7 +28,7 @@ In addition to refactoring the code, I also added some functionality to the webp
 ### CSS
 * Added comments that separated code into sections for portion of the webpage, and then reorganized code to its approriate comment header:  
     `/* styles for header section */`
-* Reorganized redundant code with multiple selectors under a new selector that still targeted the all the disered elements:  
+* Reorganized redundant code with multiple selectors under a new selector that still targeted the all the desired elements:  
     Original code targeted each div in the `.benefits` section individually, but with all the same styles.
     ```
     .benefit-lead {
@@ -53,7 +53,7 @@ In addition to refactoring the code, I also added some functionality to the webp
         color: #ffffff;
     }
     ```
-* Removed redundant or unneccessary selectors from rulesets:
+* Removed redundant or unneccessary selectors from rulesets:  
     This selector targets the `.seo` class within `<h1>` elements within elements with the `.header` class:
     ```
     .header h1 .seo {
@@ -66,7 +66,7 @@ In addition to refactoring the code, I also added some functionality to the webp
         color: #d9dcd6;
     }
     ```
-* Revised selectors in CSS to match changes in of HTML basic elements to semantic elements:
+* Revised selectors in CSS to match changes in of HTML basic elements to semantic elements:  
     ```
     .footer h2 {
         font-size: 20px;
@@ -78,7 +78,7 @@ In addition to refactoring the code, I also added some functionality to the webp
         font-size: 20px;
     }
     ```
-* Removed extraneous properties from rule-sets that did not actually affect the style:
+* Removed extraneous properties from rule-sets that did not actually affect the style:  
     ```
     .benefits {
         margin-right: 20px;
@@ -102,7 +102,7 @@ In addition to refactoring the code, I also added some functionality to the webp
         background-color: #2589bd;
     }
     ```
-* Removed rulesets altogether that did not have any bearing on styles:
+* Removed rulesets altogether that did not have any bearing on styles:  
     ```
     p {
         font-size: 16px;
