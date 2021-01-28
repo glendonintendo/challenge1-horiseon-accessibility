@@ -1,4 +1,15 @@
 # Horiseon Code Refactor Challenge
+  - [Description](#description)
+  - [Summary of Refactor Changes](#summary-of-refactor-changes)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Gotcha Moments](#gotcha-moments)
+  - [Demo](#demo)
+  - [Test Conditions and Grading Criteria](#test-conditions-and-grading-criteria)
+    - [User Story](#user-story)
+    - [Acceptance Criteria](#acceptance-criteria)
+    - [Summary of Grading Requirements](#summary-of-grading-requirements)
+
 ## Description
 In this challenge, I was tasked with refactoring HTML and CSS code to make it more accessible and searchable for users, increase readability for developers, and reduce redundancies in code for greater efficiency.
 
