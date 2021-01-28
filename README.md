@@ -4,7 +4,7 @@
 
 ## Demo
 [Horiseon - Social Solution Services](https://glendonintendo.github.io/challenge1-horiseon-accessibility/)
-![Image](assets/images/horizon-webpage-screenshot.png)
+![Image](assets/images/horiseon-webpage-screenshot.png)
 
 ## Gotchas
 
