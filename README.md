@@ -8,11 +8,11 @@ In addition to refactoring the code, I also added some functionality to the webp
 
 ## Summary of Refactor Changes
 ### HTML
-* added comments that separate main sections of the webpage as well as smaller subsections of the main content:
-    `<!-- content section -->`
+* Added comments that separate main sections of the webpage as well as smaller subsections of the main content:
+    `<!-- content section -->`  
     `<!-- search engine optimization article -->`
-* revised inner HTML of the `<title>` element to *Horiseon - Social Solutions Services*
-* replaced (most) divs with the appropriate header, nav, section, article, and footer semantic tags:
+* Revised inner HTML of the `<title>` element to *Horiseon - Social Solutions Services*
+* Replaced (most) divs with the appropriate header, nav, section, article, and footer semantic tags:
     ```
     <div class="footer">
     ...
@@ -26,9 +26,9 @@ In addition to refactoring the code, I also added some functionality to the webp
     ```
 
 ### CSS
-* added comments that separated code into sections for portion of the webpage, and then reorganized code to its approriate comment header:
+* Added comments that separated code into sections for portion of the webpage, and then reorganized code to its approriate comment header:  
     `/* styles for header section */`
-* reorganized redundant code with multiple selectors under a new selector that still targeted the all the disered elements:  
+* Reorganized redundant code with multiple selectors under a new selector that still targeted the all the disered elements:  
     Original code targeted each div in the `.benefits` section individually, but with all the same styles.
     ```
     .benefit-lead {
@@ -53,7 +53,7 @@ In addition to refactoring the code, I also added some functionality to the webp
     color: #ffffff;
     }
     ```
-* removed redundant or unneccessary selectors from rulesets:
+* Removed redundant or unneccessary selectors from rulesets:
     This selector targets the `.seo` class within `<h1>` elements within elements with the `.header` class:
     ```
     .header h1 .seo {
@@ -66,7 +66,7 @@ In addition to refactoring the code, I also added some functionality to the webp
         color: #d9dcd6;
     }
     ```
-* revised selectors in CSS to match changes in of HTML basic elements to semantic elements:
+* Revised selectors in CSS to match changes in of HTML basic elements to semantic elements:
     ```
     .footer h2 {
         font-size: 20px;
@@ -78,7 +78,7 @@ In addition to refactoring the code, I also added some functionality to the webp
         font-size: 20px;
     }
     ```
-* removed extraneous properties from rule-sets that did not actually affect the style:
+* Removed extraneous properties from rule-sets that did not actually affect the style:
     ```
     .benefits {
         margin-right: 20px;
@@ -102,7 +102,7 @@ In addition to refactoring the code, I also added some functionality to the webp
         background-color: #2589bd;
     }
     ```
-* removed rulesets altogether that did not have any bearing on styles:
+* Removed rulesets altogether that did not have any bearing on styles:
     ```
     p {
         font-size: 16px;
@@ -112,10 +112,10 @@ In addition to refactoring the code, I also added some functionality to the webp
 
 
 ### Gotcha Moments
-* removed extraneous closing img tag from Cost Management within the Benefit section
-* added an `id="search-engine-optimization"` to the search-engine-optimzation div allowing the nav link to direct to the section of the page
-* added a favicon to the address bar
-* added a meta desription for the webpage, just in case this ever gets published ;)
+* Removed extraneous closing img tag from Cost Management within the Benefit section
+* Added an `id="search-engine-optimization"` to the search-engine-optimzation div allowing the nav link to direct to the section of the page
+* Added a favicon to the address bar
+* Added a meta desription for the webpage, just in case this ever gets published ;)
 
 ## Demo
 A link to the most up-to-date version of the project can be found here: [Horiseon - Social Solution Services](https://glendonintendo.github.io/challenge1-horiseon-accessibility/).  
@@ -145,7 +145,7 @@ THEN I find a concise, descriptive title
 ### Summary of Grading Requirements
 #### Technical Acceptance Criteria: 40%
 - [x] Satisfies all preceding acceptance criteria
-    * refactor html basic elements to semantic elements
+    * refactor HTML basic elements to semantic elements
     * ensure structure of hyml follows logical order
     * image elements contain relevant alt attributes
     * heading attributes fall in sequential order
