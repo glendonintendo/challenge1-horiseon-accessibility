@@ -2,15 +2,9 @@
 ## Description
 In this challenge, I was tasked with refactoring HTML and CSS code to make it more accessible and searchable for users, increase readability for developers, and reduce redundancies in code for greater efficiency.
 
-I accomplished this by replacing generic html tags with semantic tags, adding white space and comments to the html and css files, and consolidating duplicate declarations in multiple selctors in to singular ones (examples shown below in *Summary of Refactor Changes*).
+I accomplished this by replacing generic HTML tags with semantic tags, adding white space and comments to the HTML and CSS files, and consolidating duplicate declarations in multiple selctors in to singular ones (examples shown below in *Summary of Refactor Changes*).
 
 In addition to refactoring the code, I also added some functionality to the webpage and fixed syntax and bugs (summarized in *Gotcha Moments*).
-
-## Demo
-A link to the most up-to-date version of the project can be found here: [Horiseon - Social Solution Services](https://glendonintendo.github.io/challenge1-horiseon-accessibility/).  
-
-I have also provided a screen shot of the launched webpage below:
-![Image](assets/images/horiseon-webpage-screenshot.png)
 
 ## Summary of Refactor Changes
 ### HTML
@@ -19,6 +13,13 @@ I have also provided a screen shot of the launched webpage below:
 ### CSS
 
 ## Gotcha Moments
+
+
+## Demo
+A link to the most up-to-date version of the project can be found here: [Horiseon - Social Solution Services](https://glendonintendo.github.io/challenge1-horiseon-accessibility/).  
+
+I have also provided a screen shot of the launched webpage below:
+![Image](assets/images/horiseon-webpage-screenshot.png)
 
 ## Test Conditions and Grading Criteria
 ### User Story
