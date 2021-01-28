@@ -8,7 +8,7 @@ In addition to refactoring the code, I also added some functionality to the webp
 
 ## Summary of Refactor Changes
 ### HTML
-* Added comments that separate main sections of the webpage as well as smaller subsections of the main content:
+* Added comments that separate main sections of the webpage as well as smaller subsections of the main content:  
     `<!-- content section -->`  
     `<!-- search engine optimization article -->`
 * Revised inner HTML of the `<title>` element to `Horiseon - Social Solutions Services`
