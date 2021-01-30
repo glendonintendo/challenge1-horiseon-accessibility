@@ -35,7 +35,7 @@ In addition to refactoring the code, I also added some functionality to the webp
     ...
     </footer>
     ```
-    Each visual partition of the webpage is separated into a `<section>` element. `<div>`s within `<section class="content">` were replaced with `<article>` tags because there content seemed like the most relevant on the page and therefor I wanted them to stand out from the rest of the content on the page. `<div>`s in the `<section class="benefits">` were left as `<div>`s because they lacked specificity and therefor fit well with the basic `<div>` tag.
+    Each visual partitions of the webpage are separated into a `<main>` element and a `<section>` element. `<div>`s within `<main class="content">` were replaced with `<article>` tags because there content seemed like the most relevant on the page and therefor I wanted them to stand out from the rest of the content on the page. `<div>`s in the `<section class="benefits">` were left as `<div>`s because they lacked specificity and therefor fit well with the basic `<div>` tag.
 * Added alt attributes to all images:  
     Images within the `.content` section were given descriptions in their alt attribute because it was relevant(ish) to the understanding of the material:  
     ```
@@ -133,7 +133,7 @@ In addition to refactoring the code, I also added some functionality to the webp
 
 ### Gotcha Moments
 * Removed extraneous `</img>` tag image in `<div class="benefit-cost">`
-* Added an `id="search-engine-optimization"` property to the `<div class="search-engine-optimization">` allowing the `<a href="#search-engine-optimization">Search Engine Optimization</a>` nav link to direct to the section of the page
+* Added an `id="search-engine-optimization"` property to the `<article class="search-engine-optimization">` allowing the `<a href="#search-engine-optimization">Search Engine Optimization</a>` nav link to direct to the section of the page
 * Added a favicon to the address bar
 * Added a meta desription for the webpage, just in case this ever gets published ;)
 
