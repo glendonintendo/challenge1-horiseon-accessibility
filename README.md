@@ -136,6 +136,7 @@ In addition to refactoring the code, I also added some functionality to the webp
 * Added an `id="search-engine-optimization"` property to the `<article class="search-engine-optimization">` allowing the `<a href="#search-engine-optimization">Search Engine Optimization</a>` nav link to direct to the section of the page
 * Added a favicon to the address bar
 * Added a meta desription for the webpage, just in case this ever gets published ;)
+* Added `<a href="#>` to Horiseon header which links to the top of the page, making future edits to the application easier if more pages are added
 
 ## Demo
 A link to the most up-to-date version of the project can be found here: [Horiseon - Social Solution Services](https://glendonintendo.github.io/challenge1-horiseon-accessibility/).  
