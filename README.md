@@ -36,12 +36,20 @@ In addition to refactoring the code, I also added some functionality to the webp
     </footer>
     ```
     Each visual partition of the webpage is separated into a `<section>` element. `<div>`s within `<section class="content">` were replaced with `<article>` tags because there content seemed like the most relevant on the page and therefor I wanted them to stand out from the rest of the content on the page. `<div>`s in the `<section class="benefits">` were left as `<div>`s because they lacked specificity and therefor fit well with the basic `<div>` tag.
+* Added alt attributes to all images:  
+    Images within the `.content` section were given descriptions in their alt attribute because it was relevant(ish) to the understanding of the material:  
+    ```
+    <img src="./assets/images/social-media-marketing.jpg" class="float-left"
+        alt="employees working at conference table with laptops and media image cutouts" />
+    ```
+    Images with `.benefits` section had alt attributes with no value associated because their sole function was inonography:  
+    `<img src="./assets/images/lead-generation.png" alt="" />`
 
 ### CSS
 * Added comments that separated code into sections for portion of the webpage, and then reorganized code to its approriate comment header:  
     `/* styles for header section */`
 * Reorganized redundant code with multiple selectors under a new selector that still targeted the all the desired elements:  
-    Original code targeted each div in the `.benefits` section individually, but with all the same styles.
+    Original code targeted each div in the `.benefits` section individually, but with all the same styles:
     ```
     .benefit-lead {
         margin-bottom: 32px;
@@ -158,10 +166,10 @@ THEN I find a concise, descriptive title
 #### Technical Acceptance Criteria: 40%
 - [x] Satisfies all preceding acceptance criteria
     * refactor HTML basic elements to semantic elements
-    * ensure structure of hyml follows logical order
+    * ensure structure of HTML follows logical order
     * image elements contain relevant alt attributes
     * heading attributes fall in sequential order
-    * title in title elemetn in concise and descriptive
+    * title in title element is concise and descriptive
 - [x] Application's links all function properly
 - [x] Application's CSS selectors and properties are consolidated and organized to follow semantic structure
 - [x] Application's CSS file is properly commented
